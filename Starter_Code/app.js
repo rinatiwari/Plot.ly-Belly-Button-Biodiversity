@@ -71,21 +71,7 @@ function buildCharts(sample) {
     Plotly.newPlot("bar", bar_data, barLayout);
   });
 }
-    // var pie_data = [
-    //   {
-    //     values: values.slice(0, 10),
-    //     labels: ids.slice(0, 10),
-    //     hovertext: labels.slice(0, 10),
-    //     hoverinfo: "hovertext",
-    //     type: "pie"
-    //   }
-    // ];
-
-    // var pie_layout = {
-    //   margin: { t: 0, l: 0 }
-    // };
-
-    // Plotly.plot("pie", pie_data, pie_layout);
+   
  
 function init() {
   // Grab a reference to the dropdown select element
